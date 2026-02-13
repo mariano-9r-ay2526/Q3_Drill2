@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drill 2: Triangle Area Calculator</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+ 
+<!-- CONTAINER -->
+<div class="container">
+<h1>Triangle Area Calculator</h1>
+<img src="triangle_area.jpg" alt="Triangle Area" class="triangle"><br>
+        <label for="base">Base:</label><br>
+            <input type="number" id="base1" name="base"><br>
+
+        <label for="height">Height:</label><br>
+            <input type="number" id="height1" name="height"><br>
+
+        <label for="height">Area:</label><br>
+            <input type="number" id="area1" readonly name="Area"><br>
+
+
+    <button type="reset" class="btn-success" onclick="window.location.reload()">Reload</button>
+    <button type="button" class="btn-success" onclick="calculateArea()" value="calculate">Calculate</button>
+    <p id="outcome">The area of the triangle is...</p>
+
+
+ </body>
+
+
+
+

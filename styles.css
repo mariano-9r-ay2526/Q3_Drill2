@@ -1,0 +1,23 @@
+.btn-success {
+    background-color: #0037ff7c;
+    color: white;
+    font-size: 15px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+body {
+    background-color: rgb(167, 196, 249);
+     font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+     font-weight: <weight>;
+    font-style: normal;
+}
+
+.container {
+    border: 6px solid #5569aa;
+    background-color: cornsilk;
+    text-align: center;
+}
